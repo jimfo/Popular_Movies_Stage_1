@@ -13,10 +13,10 @@ Your app will:
   
 * Allow the user to tap on a movie poster and transition to a details screen with additional information such as:
 original title
- * movie poster image thumbnail
- * A plot synopsis (called overview in the api)
- * user rating (called vote_average in the api)
- * release date
+  * movie poster image thumbnail
+  * A plot synopsis (called overview in the api)
+  * user rating (called vote_average in the api)
+  * release date
 
 ![1](https://user-images.githubusercontent.com/5784029/40395370-b8acd0a0-5df5-11e8-8ca4-e8a2a05ea756.png)
 
