@@ -18,6 +18,38 @@ original title
   * user rating (called vote_average in the api)
   * release date
 
+
+## Rubric
+
+Meets Specifications
+Congrats! Your hard work has paid off! Keep up the good work as you continue your Nanodegree journey! Safe journey and bon voyage! :smile:
+
+Stay :udacious:!
+
+### Common Project Requirements
+- [x] App is written solely in the Java Programming Language.
+
+- [x] Movies are displayed in the main layout via a grid of their corresponding movie poster thumbnails.
+
+- [x] UI contains an element (i.e a spinner or settings menu) to toggle the sort order of the movies by: most popular, highest rated.
+
+- [x] UI contains a screen for displaying the details for a selected movie.
+
+- [x] Movie details layout contains title, release date, movie poster, vote average, and plot synopsis.
+
+- [x] App utilizes stable release versions of all libraries, Gradle, and Android Studio.
+
+### User Interface - Function
+- [x] When a user changes the sort criteria (“most popular and highest rated”) the main view gets updated correctly.
+
+- [x] When a movie poster thumbnail is selected, the movie details screen is launched.
+
+### Network API Implementation
+- [x] In a background thread, app queries the /movie/popular or /movie/top_rated API for the sort criteria specified in the settings menu.
+
+### General Project Guidelines
+- [x] App conforms to common standards found in the Android Nanodegree General Project Guidelines (NOTE: For Stage 1 of the Popular Movies App, it is okay if the app does not restore the data using onSaveInstanceState/onRestoreInstanceState)
+
 ![1](https://user-images.githubusercontent.com/5784029/40395370-b8acd0a0-5df5-11e8-8ca4-e8a2a05ea756.png)
 
 A Setting Menu allows the user to select between Popular Movies and Top Rated movies to display in the
