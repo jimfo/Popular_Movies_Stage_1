@@ -1,9 +1,21 @@
-# Popular_Movies
+# Popular Movies Stage 1
 
-Popular Movies is the second Udacity project challenge. The project queries TMDB (The Movie Database) API 
-for Top Rated and Popular Movies and parses the JSON response. While parsing the JSON response an ArrayList
-of Movie objects is created ad returned to Main Activity. A custom array adapter is used to retrieve the
-movie poster path and display each movie's poster in it's corresponding GridView cell using Picasso.
+##### Project Overview
+Most of us can relate to kicking back on the couch and enjoying a movie with friends and family. In this project, you’ll build an app to allow users to discover the most popular movies playing. We will split the development of this app in two stages. First, let's talk about stage 1.
+
+In this stage you’ll build the core experience of your movies app.
+
+Your app will:
+
+Present the user with a grid arrangement of movie posters upon launch.
+Allow your user to change sort order via a setting:
+The sort order can be by most popular or by highest-rated
+Allow the user to tap on a movie poster and transition to a details screen with additional information such as:
+original title
+movie poster image thumbnail
+A plot synopsis (called overview in the api)
+user rating (called vote_average in the api)
+release date
 
 ![1](https://user-images.githubusercontent.com/5784029/40395370-b8acd0a0-5df5-11e8-8ca4-e8a2a05ea756.png)
 
